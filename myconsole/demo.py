@@ -1,4 +1,5 @@
-import myconsole.console
+import argparse
+import myconsole
 
 BANNER =\
 """
@@ -10,4 +11,8 @@ BANNER =\
 """
 
 def main():
-    myconsole.console.go( BANNER, 'MyConsole', exitMessage = 'enjoy your shiny new console!' )
+    parser = argparse.ArgumentParser()
+    parser.add_argument( '--in', dest = 'inPrompt', metavar = 'STRING', default = 'MyConsole' )
+    parser.add_argument( '--out', dest = 'outPrompt', metavar = 'STRING', default = None )
+    arguments = parser.parse_args()
+    myconsole.go( BANNER, arguments.inPrompt, arguments.outPrompt, exitMessage = 'enjoy your shiny new console!' )
