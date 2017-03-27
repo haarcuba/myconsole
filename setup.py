@@ -5,7 +5,7 @@ README = 'create IPython consoles with custom banners'
 requires = [ 'ipython' ]
 
 setup(name='myconsole',
-      version='0.1.0',
+      version='1.0.0',
       description=README,
       long_description=README,
       url='https://github.com/haarcuba/myconsole',
