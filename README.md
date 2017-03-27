@@ -20,3 +20,4 @@ def main():
 
 The result:
 
+!(https://raw.githubusercontent.com/haarcuba/myconsole/master/myconsole.jpg "")
