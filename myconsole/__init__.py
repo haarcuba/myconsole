@@ -1,1 +1,1 @@
-from .console import go
+from .console import create

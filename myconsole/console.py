@@ -1,7 +1,7 @@
 import myconsole.embed
 import IPython
 
-def go( welcomeBanner, input, output = None, exitMessage = '' ):
+def create( welcomeBanner, input, output = None, exitMessage = '' ):
     if output is None:
         output = input
     input_ = '{} '.format( input )
@@ -11,4 +11,4 @@ def go( welcomeBanner, input, output = None, exitMessage = '' ):
         config=configuration,
         banner1 = welcomeBanner,
         exit_msg = exitMessage )
-    ipshell()
+    return ipshell
