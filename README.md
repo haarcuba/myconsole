@@ -20,4 +20,4 @@ def main():
 
 The result:
 
-!(https://raw.githubusercontent.com/haarcuba/myconsole/master/myconsole.jpg "")
+![picture](https://raw.githubusercontent.com/haarcuba/myconsole/master/myconsole.jpg "")
