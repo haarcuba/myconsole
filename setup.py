@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 README = 'create IPython consoles with custom banners'
 
-requires = [ 'ipython==5.3.0' ]
+requires = [ 'ipython==7.16.3' ]
 
 setup(name='myconsole',
       version='1.0.2',
